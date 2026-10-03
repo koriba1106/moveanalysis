@@ -1,0 +1,24 @@
+{
+  "name": "muko-move-analysis",
+  "version": "3.0.0",
+  "private": false,
+  "description": "Move Analysis by Muko - browser-based climbing/bouldering move analysis.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@mediapipe/tasks-vision": "1.0.1",
+    "mediabunny": "1.61.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "typescript": "^5.9.3",
+    "vite": "^6.3.5",
+    "vitest": "^3.2.4"
+  }
+}
